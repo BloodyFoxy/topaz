@@ -9,6 +9,9 @@ A pipeline for particle detection in cryo-electron microscopy images using convo
 
 **Check out our [Discussion](https://github.com/tbepler/topaz/discussions) section for general help, suggestions, and tips on using Topaz. You can also find our documentation site [here](https://topaz-em.readthedocs.io/en/latest/?badge=latest).**
 
+## WTF is stis fork
+This for is a mix of original tbepler/topaz and enhancements from 3dem/topaz. Let's hope it will be updated to keep up with original repo. 
+
 ## New in modification for filament picking:
 - Added support for filament start-end coordinate picking (new options -f, -fp and -fl in the extract command), for subsequent helical reconstruction in RELION
 - This adds a new dependency to skimage (make sure you install this in your conda environment)
